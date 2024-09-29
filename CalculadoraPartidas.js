@@ -2,9 +2,9 @@ function num_vitorias(vitorias, derrotas) {
     return vitorias - derrotas;
 }
 
-const vitorias = 600;
-const derrotas = 100;
-const saldo_vitorias = num_vitorias(vitorias, derrotas)
+let vitorias = 600;
+let derrotas = 100;
+let saldo_vitorias = num_vitorias(vitorias, derrotas)
 
 if (vitorias <= 10) {
     nivel = "Ferro";
